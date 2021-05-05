@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Thanks for downloading this theme!
 
-Template Name: Maundy
-Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
+Theme Name: NewBiz
+Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
 Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Author URL: https://bootstrapmade.com

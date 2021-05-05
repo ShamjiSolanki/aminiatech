@@ -1,221 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
+  <title>Web & Mobile Apps Development Company</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Aminia Technology</title>
-  <meta content="" name="descriptison">
   <meta content="" name="keywords">
+  <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/fevicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Maundy - v2.1.0
-  * Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center">
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
 
-      <h1>Aminia Technology</h1>
-      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2021/01/15">
-        <div>
-          <h3>%D</h3>
-          <h4>Days</h4>
-        </div>
-        <div>
-          <h3>%H</h3>
-          <h4>Hours</h4>
-        </div>
-        <div>
-          <h3>%M</h3>
-          <h4>Minutes</h4>
-        </div>
-        <div>
-          <h3>%S</h3>
-          <h4>Seconds</h4>
-        </div>
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="img/icon.png" alt="" class="img-fluid"></a>
       </div>
 
-      <div class="subscribe">
-        <h4>Subscribe now to get the latest updates!</h4>
-        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-          <div class="subscribe-form">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
-          </div>
-          <div class="mt-2">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your notification request was sent. Thank you!</div>
-          </div>
-        </form>
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-img.svg" alt="" class="img-fluid">
       </div>
 
-      <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://www.instagram.com/aminiatech/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
-        <a href="https://www.linkedin.com/in/aminiatech-sales-31553b149" class="linkedin"><i class="icofont-linkedin"></i></a>
+      <div class="intro-info">
+        <h2>We provide<br><span>Solutions</span><br>for your business!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#services" class="btn-services scrollto">Our Services</a>
+        </div>
       </div>
 
     </div>
-  </header><!-- End #header -->
+  </section><!-- #intro -->
 
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about " >
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
       <div class="container">
 
-        <div class="section-title">
-          <h2>About Us</h2>
-          <p>We are here to help people for implement best ERP system for grow them bussiness. New era is mobile era so we provide mobile app solution to.</p>
-        </div>
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>The who, what and why our company exists</p>
+        </header>
 
+        <div class="row about-container">
 
-        <div class="row mt-2 justify-content-center" >
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-computer"></i></div>
-            <h4 class="title"><a href="">Odoo</a></h4>
-            <p class="description">Odoo is best opensource ERP in the world. We will help you for implement Odoo ERP with our best knowledge.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title"><a href="">Mobile App</a></h4>
-            <p class="description">For growing business from any where we are providing mobile app solution.</p>
-          </div>
-        </div>
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              KarmDude is an organization which delivers a complete IT solution.We are into Web Hosting, Domain Registration, Web Designing, Web Development, Mobile Application, SEO Services, Web site maintenance, and in all Desktop and Web based Application Services. We are expert in delivering product with Core PHP, HTML, MY SQL, ASP, Dot net, JAVA, Jhoomla and Wordpress.
+            </p>
 
-      </div>
-    </section><!-- End About Us Section -->
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+              <h4 class="title"><a href="">54 PROJECTS MILESTONE</a></h4>
+              <p class="description">Our main focus was to preserve the values to serve the client in the best way possible. We started with website development at the start of our exciting journey. We worked hard to deliver results to the clients regardless of the challenges that we faced during our startup.</p>
+            </div>
 
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></i></div>
+              <h4 class="title"><a href="">How will you benefit from hiring our dedicated developers?</a></h4>
+              <p class="description">Cost is reduced by a large margin outshining in-house development charges. Every hardware & software assets and office infrastructure already available Replete aid and direct control – Hire dedicated developers who offer quick communications and live chat conferencing abilities.</p>
+            </div>
 
-        <div class="section-title">
-          <h2>Contact Us</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Baroda</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>aminiatechnology@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 73835 71223</p>
-              </div>
-              <div class="skype">
-                <i class="icofont-skype"></i>
-                <h4>Skype:</h4>
-                <p>Aminia Technology(live:.cid.42b1f5df3d82376e)</p>
-              </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+              <h4 class="title"><a href="">Remote Team</a></h4>
+              <p class="description">Karmdude is a leading dedicated remote development company that provides an array of hiring services that come complete with exquisite project development tactics and dedicated resources.</p>
             </div>
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Result Oriented Web & Mobile Apps Development Company In India</h4>
+            <p>
+               Karmdude’s passionate developer team accomplish the hardest task with planned analysis-implementation in a result-oriented way. In-house development team ensuring technology updates on recurring timespan to serve influence web, software and mobile app stores solutions. 
+            </p>
+            <p>
+              Authentic development process with bird eye watch through inbuilt CRM system. Indian company, 2+ branches outside India with nail biting client portfolio enough for selecting us as outsourcing technology partner. Enchanting pride of winning the award in Cost Effective WEB-APP Development Company in India 2018
+
+
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Being a Karmdude Performer</h4>
+            <p>
+             In 2018, we took a host for building apps and now it
+ followed by more than 30+. As part of our insistence on quality delivers, we strive to improve customer satisfaction, delights and also to improve process efficiency.Thus, we never forgot to ensure that our process and work quality is maintained as per customer requirements. 
+            </p>
+            <p>
+             Karmdude is global centralized company with over 8+ resourceful employees. Our company culture accept and appreciate employees and so we have builded an enthusiastic team of developers, product managers and professionals to accomplish our vision and mission.
+            </p>
+            <p>
+              Our goal is to deliver products and solutions for which we have
+well prepared engineers across globe for SCRUM,XP and Kanban to delight customer by providing deliveries on time.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Services</h3>
+          <p>Enhance your brand value and leverage your business to surge earnings. We offer highly unique solutions integrated with ultra-modern platforms to match your demands.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="#Services">Application Development</a></h4>
+              <p class="description">Intuitive designs combined with compelling user experience are what makes our apps stand ahead in the digital age. Seamless experience driven by international standards in collaboration with out-of-the-box ideas is the specialty of Karmadude’s apps helping your business accomplish its goals.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="#Services">Graphic Design</a></h4>
+              <p class="description">UX drives UI. Our team of UX designers at Acodez have ample of years of experience in the core areas of user experience, which helps them collaborate the finer modules of usability and functionality in-line with business goals and end-user needs.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="#Services">Web Development</a></h4>
+              <p class="description">Cross-browser and cross-device compatibility driven by mobile responsiveness all under one roof Starting from basic website designs, including CMS and online store building to highly complex business website apps and design solutions, we will customize the best of web development solutions for you.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="#Services">Web Design</a></h4>
+              <p class="description">Creative, attractive, engaging and usable interfaces are the soul of any designs. We will help design custom user interfaces based on your business requirements for any of your device platforms, including mobile apps, tablets, desktops and KIOSKS.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">SEO</a></h4>
+              <p class="description">We have a perfectly planned SEO strategy that will fit into your business requirements. Optimizing your site based on our effective keyword research analogy will drive your site to the top of the search engine results.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">Digital Marketing</a></h4>
+              <p class="description">Digital marketing comprises of a number of activities for the web apart from marketing and each and every activity needs to be executed with focus on the end users to ensure success.</p>
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Us Section -->
+    </section><!-- #services -->
 
-  </main><!-- End #main -->
+   
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p>If mobile is your biggest challenge, our talented staff of strategists, designers, software engineers and project managers have the answers to ensure your project delivers the impact that you need.</p>
+        </header>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Aminia Technology</span></strong>. All Rights Reserved
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-eercast" aria-hidden="true"></i>
+                
+              <div class="card-body">
+                <h5 class="card-title">CREATIVE MINDS</h5>
+                <p class="card-text">We're a team of passionate people who love creating software. We see it as an art form, and take great pride in building amazing web and mobile applications.</p>
+                <!-- <a href="#" class="readmore">Read more </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-money" aria-hidden="true"></i>
+              <div class="card-body">
+                <h5 class="card-title">INCREASE PROFITABILITY</h5>
+                <p class="card-text">There are no tricks or shortcuts to make a profitable app. Worry Free Labs has a proven track record of developing mobile applications that meet client business goals and top app store charts.</p>
+                <!-- <a href="#" class="readmore">Read more </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">ACCELERATE INNOVATION</h5>
+                <p class="card-text">It’s tough to stay on top of the needs of your product and customers and be a leading expert on the latest technologies used in digital. </p>
+                <!--<a href="#" class="readmore">Read more </a>-->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-ravelry" aria-hidden="true"></i>
+              <div class="card-body">
+                <h5 class="card-title">SPEED TO MARKET</h5>
+                <p class="card-text">Getting to market quickly is an essential component to any product’s success. Worry Free Labs combines expert product strategy with time-tested development efficiencies to solve your challenges quickly, and without sacrificing the world-class design that your customers expect.</p>
+                <!-- <a href="#" class="readmore">Read more </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-linode" aria-hidden="true"></i>
+              <div class="card-body">
+                <h5 class="card-title">MAXIMIZE ADOPTION</h5>
+                <p class="card-text">Touch screen devices, from tablet to mobile and especially watches present an amazing opportunity to develop apps and platforms with the user perspective top-of-mind.</p>
+                <!-- <a href="#" class="readmore">Read more </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+               <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <div class="card-body">
+                <h5 class="card-title">LOUDER THAN WORDS</h5>
+                <p class="card-text">we're more than just technology experts – we love great design. We focus on the initial impression and impact that your web app or mobile app will have on your customer.</p>
+                <!-- <a href="#" class="readmore">Read more </a> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">15</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">56</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">390</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">8</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div>
+
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Mobile</li>
+              <li data-filter=".filter-web">Web</li>
+              <!--<li data-filter=".filter-card">Design</li>-->
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/echallan_web_portfolio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">E-Challan</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/echallan_portfolio.jpg" data-lightbox="portfolio" data-title="1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="http://kayanidhi.com/">Kayanidhi</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="http://kayanidhi.com/" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/nastavala_web_portfolio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Nastavala</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/nastavala_portfolio.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/enews_web_portfolio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">E-News</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/enews_portfolio.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/instasave_web_portfolio.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">InstaSave</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/instasave_portfolio.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">-->
+          <!--  <div class="portfolio-wrap">-->
+          <!--    <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">-->
+          <!--    <div class="portfolio-info">-->
+          <!--      <h4><a href="#">App 3</a></h4>-->
+          <!--      <p>App</p>-->
+          <!--      <div>-->
+          <!--        <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>-->
+          <!--        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+          <!--      </div>-->
+          <!--    </div>-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card">-->
+          <!--  <div class="portfolio-wrap">-->
+          <!--    <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">-->
+          <!--    <div class="portfolio-info">-->
+          <!--      <h4><a href="#">Card 1</a></h4>-->
+          <!--      <p>Card</p>-->
+          <!--      <div>-->
+          <!--        <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>-->
+          <!--        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+          <!--      </div>-->
+          <!--    </div>-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">-->
+          <!--  <div class="portfolio-wrap">-->
+          <!--    <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">-->
+          <!--    <div class="portfolio-info">-->
+          <!--      <h4><a href="#">Card 3</a></h4>-->
+          <!--      <p>Card</p>-->
+          <!--      <div>-->
+          <!--        <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>-->
+          <!--        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+          <!--      </div>-->
+          <!--    </div>-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">-->
+          <!--  <div class="portfolio-wrap">-->
+          <!--    <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">-->
+          <!--    <div class="portfolio-info">-->
+          <!--      <h4><a href="#">Web 1</a></h4>-->
+          <!--      <p>Web</p>-->
+          <!--      <div>-->
+          <!--        <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>-->
+          <!--        <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
+          <!--      </div>-->
+          <!--    </div>-->
+          <!--  </div>-->
+          <!--</div>-->
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <h3>James Macvy</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  In Today’s scenario, it is really important for any business to have a good tech support to grow in the market. I would like to appreciate all the efforts and services given and provided by Karmdude for the smooth tech operation in our applications. 
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Mobin Bahrami</h3>
+                <h4>Designer</h4>
+                <p>
+                Karmdude has a wonderful team and we will recommend them to all the upcoming projects. Keep it up!
+                </p>
+              </div>
+    <!-- 
+              <div class="testimonial-item">
+                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <h3>Taizivei Bvunzawabaya</h3>
+                <h4>Chief Executive Officer </h4>
+                <p>
+                 Karmdude is a fast growing IT Solutions company which is led by Kanaksinh Dodiya, who is an expert in IT project design and development. I found his services beneficial. I also found the post-service client support very reliable, cooperative and effective
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  I’m very pleased to recommend karmdude for the mobile application. karmdude has worked on one of our Website designing project, on a freelance basis. While I’ve communicated with Karmdude remotely via video chat and email, I’ve gotten to know him as a reliable professional with rock star web design skills. I have no doubt that he’ll continue to create outstanding work for any set of web site demands
+                </p>
+              </div>             
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+     <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Karmdude’s passionate developer team accomplish the hardest task with planned analysis-implementation in a result-oriented way.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-man.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Kanaksinh Dodiya</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                   <a href="https://www.linkedin.com/in/kanak-dodiya-13121646/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-man.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Hiral Patel</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                   <a href="https://www.linkedin.com/in/hpandro/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-girl.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mayu Pitroda</h4>
+                  <span>Sr.Business Executive</span>
+                  <div class="social">
+                   <a href="https://www.linkedin.com/in/mayu-pitroda-52026514a/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-girl.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sims Patel</h4>
+                  <span>Sr.Business Executive</span>
+                  <div class="social">
+                   <a href="https://www.linkedin.com/in/smita-patel-704b70bb/"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-girl.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+
+      </div>
+    </section> <!-- #team --> 
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Our CLients</h3>
+          <p>At Karmdude clients are empowered to make decision and considered as key stakeholders. We have ensured maximum client satisfaction through our overall approach.</p>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp" >
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+         <!--  <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-8.png" class="img-fluid" alt="">
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              <!--<iframe src="https://www.google.com/maps/place/Titanium+City+Center+(A+To+H+Block)/@23.0117019,72.5232709,15z/data=!4m5!3m4!1s0x0:0x414d09be4caf2ec9!8m2!3d23.0117019!4d72.5232709" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>-->
+              
+              
+              
+             <iframe width="100%" height="315" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=23.0117019,72.5232709&amp;q=Titanium%20City%20Center%20(A%20To%20H%20Block)+(Karmdude)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-location-outline"></i>
+                <p>Titanium City Center, Ahmedabad, Gujarat-380015.</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>mkarmdude@gmail.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+91 9601 8798 46</p>
+              </div>
+            </div>
+
+            <div class="form"  >
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="send_form_email.php" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section><!-- #contact -->
+
+  </main>
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Karmdude</h3>
+            <p>We AIM to deliver top quality solutions with most engaging customer relationships.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Titanium City Center <br>
+              Ahmedabad, Gujarat 380015<br>
+              India <br>
+              <strong>Phone:</strong> +91 9601 8798 46<br>
+              <strong>Email:</strong> mkarmdude@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com/mkarmdude" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/13269299/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <!--<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>-->
+              <!--<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>-->
+            </div>
+
+          </div>
+
+          
+
+        </div>
       </div>
     </div>
-  </footer><!-- End #footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Karmdude</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+        -->
+      
+      </div>
+    </div>
+  </footer><!-- #footer -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
 </body>
-
 </html>
+
+
+
