@@ -645,7 +645,8 @@ well prepared engineers across globe for SCRUM,XP and Kanban to delight customer
             <div class="form"  >
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="send_form_email.php" method="post" role="form" class="contactForm">
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwOdFwsM7X0y9G5Bj0dV83SyvNRLZZMvrKtX3QBOn8uvOenAkamkmBjypzJWKVpznn2EQ/exec?authuser=0">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -657,7 +658,7 @@ well prepared engineers across globe for SCRUM,XP and Kanban to delight customer
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="color" id="color" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
